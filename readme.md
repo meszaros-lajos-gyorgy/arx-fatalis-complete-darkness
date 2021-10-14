@@ -2,7 +2,16 @@
 
 Turns off the pre-calculated lighting for the levels turning it completely dark where there are no light sources.
 
+![Crypts](screenshots/crypts.png?raw=true "Crypts")
+![Intro cinematics](screenshots/intro.png?raw=true "Intro cinematics")
+![Greu's place](screenshots/greu.png?raw=true "Greu's place")
+![Order of Edurneum](screenshots/snake-women.png?raw=true "Order of Edurneum")
+![The Outpost](screenshots/the-outpost.png?raw=true "The Outpost")
+![Trolls and Goblins](screenshots/trolls-and-goblins.png?raw=true "Trolls and Goblins")
+![Ylside attack in the castle](screenshots/ylside-attack-in-the-castle.png?raw=true "Ylside attack in the castle")
+
 > author: Lajos Mészáros (m_lajos@hotmail.com)
+>
 > version: 1.0
 
 ## NOTE: some levels are work in progress, as changing the LLF files seem to not do anything
@@ -28,3 +37,5 @@ Remove all ".llf" files from the "graph" folder from your Arx Fatalis/Arx Libert
 Github: https://github.com/meszaros-lajos-gyorgy/arx-fatalis-complete-darkness
 
 Youtube: https://www.youtube.com/watch?v=Pn_sEgKAJMg
+
+ModDB: https://www.moddb.com/mods/arx-fatalis-complete-darkness

@@ -37,3 +37,4 @@ Remove all ".llf" files from the "graph" folder from your Arx Fatalis/Arx Libert
 
 Github: https://github.com/meszaros-lajos-gyorgy/arx-fatalis-complete-darkness
 Youtube: https://www.youtube.com/watch?v=Pn_sEgKAJMg
+ModDB: https://www.moddb.com/mods/arx-fatalis-complete-darkness
