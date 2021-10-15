@@ -13,11 +13,11 @@ version: 1.0
 
 The following levels will not have any changes:
 
-Level 1 - The City of Arx
-Level 2 - The Akbaa temple
-Level 4 - The underground Lake
-Level 7 - The Mushroom Forest
-Level 7 - The Crypt, Level 4
+Level 1 - The City of Arx (level 11)
+Level 2 - The Akbaa temple (level 14)
+Level 4 - The underground Lake (level 3)
+Level 7 - The Mushroom Forest (level 6)
+Level 7 - The Crypt, Level 4 (level 22)
 
 --------------
  Installation
