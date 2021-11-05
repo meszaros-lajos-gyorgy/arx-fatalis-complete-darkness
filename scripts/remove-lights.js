@@ -54,7 +54,7 @@ levels.forEach((levelIdx) => {
 
   setVertexColorToBlack(llf);
   removeNonExtinguishableLights(llf);
-  extinguishLights(llf);
+  // extinguishLights(llf);
 
   save(llf, levelIdx);
 });
