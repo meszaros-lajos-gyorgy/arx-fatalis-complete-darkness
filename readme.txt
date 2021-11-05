@@ -5,8 +5,14 @@
 Turns the levels completely dark by removing hidden lights,
 turning off torches and setting pre-calculated lights to black.
 
-author: Lajos Mészáros (m_lajos@hotmail.com)
-version: 1.2
+Author: Lajos Mészáros (m_lajos@hotmail.com)
+Support me at: https://www.patreon.com/nodengaming
+Version: 1.3
+
+There are 2 different versions:
+
+torch-on.zip - all is dark, but extinguishable torches are left lit
+torch-off.zip - all is dark and torches are extinguished
 
 ------------
  DISCLAMERS

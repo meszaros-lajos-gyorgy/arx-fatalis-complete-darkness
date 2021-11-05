@@ -54,7 +54,9 @@ levels.forEach((levelIdx) => {
 
   setVertexColorToBlack(llf);
   removeNonExtinguishableLights(llf);
-  // extinguishLights(llf);
+
+  // if you want torches to stay lit, then comment out the next line
+  extinguishLights(llf);
 
   save(llf, levelIdx);
 });
