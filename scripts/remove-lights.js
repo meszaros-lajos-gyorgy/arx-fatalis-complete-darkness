@@ -38,18 +38,33 @@ const setVertexColor = (llf, color) => {
 
 const removeNonExtinguishableLights = (llf) => {
   llf.lights = llf.lights.filter(
-    (light) => (light.extras & EXTRAS_EXTINGUISHABLE) > 0
+    (light) => (light.flags & EXTRAS_EXTINGUISHABLE) > 0
   );
 };
 
 const extinguishLights = (llf) => {
   llf.lights = llf.lights.map((light) => {
-    light.extras |= EXTRAS_STARTEXTINGUISHED;
+    light.flags |= EXTRAS_STARTEXTINGUISHED;
     return light;
   });
 };
 
-const black = { r: 0, g: 0, b: 0, a: 255 };
+const setLightColor = (llf, color) => {
+  llf.lights = llf.lights.map((light) => {
+    light.color = color;
+    return light;
+  });
+};
+
+const exaggerateLight = (llf) => {
+  llf.lights = llf.lights.map((light) => {
+    light.intensity *= 5;
+    return light;
+  });
+};
+
+const orange = { r: 255, g: 127, b: 0, a: 1 };
+const black = { r: 0, g: 0, b: 0, a: 1 };
 
 levels.forEach((levelIdx) => {
   console.log(`level ${levelIdx}`);
@@ -59,8 +74,12 @@ levels.forEach((levelIdx) => {
   setVertexColor(llf, black);
   removeNonExtinguishableLights(llf);
 
+  // ue4 remake - demake
+  setLightColor(llf, orange);
+  exaggerateLight(llf);
+
   // if you want torches to stay lit, then comment out the next line
-  extinguishLights(llf);
+  // extinguishLights(llf);
 
   save(llf, levelIdx);
 });
