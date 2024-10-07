@@ -3,7 +3,11 @@
 Turns the levels completely dark by removing hidden lights,
 turning off torches and setting pre-calculated lights to black.
 
+Crypts:
 ![Crypts](screenshots/crypts.png?raw=true "Crypts")
+
+"UE4 Remake" demake
+![UE4 Remake demake](screenshots/ue4-remake-demake.jpg?raw=true "UE4 Remake demake")
 
 > Author: Lajos Mészáros (m_lajos@hotmail.com)
 >
@@ -11,10 +15,11 @@ turning off torches and setting pre-calculated lights to black.
 >
 > Version: 1.3
 
-There are 2 different versions:
+There are 3 different versions:
 
 - `versions/torch-on.zip` - all is dark, but extinguishable torches are left lit
 - `versions/torch-off.zip` - all is dark and torches are extinguished
+- `versions/ue4-remake-demake.zip` - same as torch-on, but every light is now orange and brighter, and flames are larger
 
 ## Disclaimers
 

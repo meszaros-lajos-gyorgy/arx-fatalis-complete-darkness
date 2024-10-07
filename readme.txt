@@ -9,10 +9,11 @@ Author: Lajos Mészáros (m_lajos@hotmail.com)
 Support me at: https://www.patreon.com/nodengaming
 Version: 1.3
 
-There are 2 different versions:
+There are 3 different versions:
 
-torch-on.zip - all is dark, but extinguishable torches are left lit
-torch-off.zip - all is dark and torches are extinguished
+versions/torch-on.zip - all is dark, but extinguishable torches are left lit
+versions/torch-off.zip - all is dark and torches are extinguished
+versions/ue4-remake-demake.zip - same as torch-on, but every light is now orange and brighter, and flames are larger
 
 ------------
  DISCLAMERS

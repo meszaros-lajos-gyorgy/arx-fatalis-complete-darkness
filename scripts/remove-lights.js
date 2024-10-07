@@ -58,7 +58,9 @@ const setLightColor = (llf, color) => {
 
 const exaggerateLight = (llf) => {
   llf.lights = llf.lights.map((light) => {
-    light.intensity *= 5;
+    light.exSize *= 2;
+    light.fallStart *= 1.5;
+    light.fallEnd *= 1.5;
     return light;
   });
 };
